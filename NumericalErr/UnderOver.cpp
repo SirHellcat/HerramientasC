@@ -2,8 +2,8 @@
 
 int main(){
 
-  float under=1;
-  float over=1;
+  double under=1;
+  double over=1;
   int N{};
 
   std::cout << "Ingrese N \n";
