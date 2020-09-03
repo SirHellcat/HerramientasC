@@ -6,6 +6,11 @@ int main(int argc, char *argv[]){
   double under=1;
   double over=1;
 
+  int P = std::atoi(argv[2]);
+
+  std::cout.precision(P); //Números con una precisión de 10 dígitos
+  std::cout.setf(std::ios::scientific); //Números en notación científica
+
   int N = std::atoi(argv[1]); //Ingresa el argumento al correr el código.
 
   for(int i=1 ; i<=N ; i++)
