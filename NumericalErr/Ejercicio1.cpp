@@ -4,12 +4,12 @@
 #include <iomanip>
 
 float ff(float x) {
-  return 5 - sqrt (25 + x*x);
+  return 5 - sqrt (25 + x * x);
 }
 
 // Función mejorada para evitar substraciones cancelativas
 float ffmejor(float x) {
-  return pow(x,2) / ( 5 + sqrt ( 25 + pow(x,2) ) );
+  return - pow(x,2) / ( 5 + sqrt ( 25 + pow(x,2) ) );
 }
 
 int main(int argc, char *argv[]){
