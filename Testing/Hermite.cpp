@@ -10,10 +10,10 @@ int main(){
 	//frecuencia angular del sistema
 	const double omega = 1.0;
 	//grado de la función propia graficada
-	const int n = 1;
+	const int n = 10;
 	//declaramos el intervalo a graficar
-	const double xmin = -5.0;
-	const double xmax = 5.0;
+	const double xmin = -8.0;
+	const double xmax = 8.0;
 	//número de intervalos para calcular
 	const int iter = 1000;
 	//tamaño de cada intervalo
